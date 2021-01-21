@@ -77,11 +77,17 @@ h1 {
 
 .feature {
   text-align: center;
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 4rem;
 }
 
 .feature-middle {
   text-align: center;
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 10.3125rem;
 }
 
@@ -137,16 +143,24 @@ h1 {
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
+  padding: 50px;
+  margin: 30px;
+}
+.plan-category {
+  font-weight: 600;
 }
 
 .plan-price {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  font-weight: 600;
 }
 
 .plan-features {
   display: flex;
   flex-direction: column;
+  margin: 1rem;
 }
 
 .btn-subscribe {
@@ -154,8 +168,8 @@ h1 {
   color: #0065fc;
   border: 1px solid #0066ff;
   background: #ffffff;
-  width: 271px;
-  height: 72.35px;
+  width: 170px;
+  height: 50px;
 }
 
 .btn-premium {
@@ -279,5 +293,9 @@ footer {
 
   .close {
     font-size: calc(1.275rem + 0.3vw);
+  }
+  .feature-middle {
+    text-align: center;
+    margin-top: 4rem;
   }
 }
