@@ -1,0 +1,300 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-blue {
+  color: #0065FC;
+}
+
+/* Nav Bar */
+.navbar {
+  padding: 2rem 6.375rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  margin-bottom: auto;
+}
+
+.nav-item {
+  padding: 0 18px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.375rem;
+  line-height: 2.0625rem;
+  text-align: center;
+}
+
+.create-room {
+  margin: auto;
+}
+
+/* Main */
+.main {
+  text-align: center;
+  padding: 4.6875rem 9rem 0 8.9375rem;
+}
+
+.pre-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+
+.post-text {
+  color: #C4C4C4;
+  font-size: 1.375rem;
+  margin-top: 0.8125rem;
+  margin-bottom: 0;
+}
+
+.main-img {
+  width: 100%;
+  height: 100%;
+  margin-top: 2.8125rem;
+}
+
+/* Features */
+.row {
+  margin-bottom: 10rem;
+}
+.feat {
+  padding: 0 10rem;
+}
+
+.feature {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.feature-middle {
+  text-align: center;
+  margin-top: 10.3125rem;
+}
+
+.feature-title {
+  margin-top: 1.9375rem;
+  margin-bottom: 1.5625rem;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.background {
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.feat-icon {
+  color: #ffffff;
+
+}
+
+.left {
+  background-color: #180058;
+}
+.mid {
+  background-color: #00C298;
+}
+.right {
+  background-color: #4400FF;
+}
+
+/* Plans */
+.plans {
+  background-color: #F7F9FC;
+  display: flex;
+  justify-content: center;
+  padding-top: 4.625rem;
+  padding-bottom: 4.625rem;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+
+
+}
+
+.plan-price {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-features {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-subscribe {
+  border-radius: 80px;
+  color: #0065FC;
+  border: 1px solid #0066FF;
+  background: #FFFFFF;
+  width: 271px;
+  height: 72.35px;
+}
+
+.btn-premium {
+  background-color: #0066FF;
+  color: #FFFFFF;
+}
+
+.plan-feature {
+  display: flex;
+}
+
+.plan-checkbox {
+  width: 35.33px;
+  height: 36px;
+  background-color: #E2F7F2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan-checkbox-red{
+  width: 35.33px;
+  height: 36px;
+  background-color: #FFF3F5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan-checkmark-green {
+  color: #00B078;
+  display: flex;
+}
+
+.plan-checkmark-red {
+  color: #FF8297;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+  margin-top: 10rem;
+  background-color: #0066FF;
+  text-align: center;
+  padding: 5rem;
+
+}
+
+.fab {
+  color: #ffffff;
+  padding: 1.7rem;
+}
+
+.foot-logo1 {
+  margin-bottom: 0;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 200;
+  }
+
+.foot-logo2 {
+  font-weight: 600;
+}
+
+.Copyright{
+  margin-bottom: 0;
+  color: #ffffff;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1.25rem;
+}
+
+#contact {
+  text-decoration: underline;
+  color: #ffffff;
+  font-size: 1.25rem;
+
+}
+
+/* Responsive Font Size */
+@media (max-width: 1200px) {
+  legend {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+
+  h1,
+  .h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+
+  h2,
+  .h2 {
+    font-size: calc(1.325rem + 0.9vw);
+  }
+
+  h3,
+  .h3 {
+    font-size: calc(1.3rem + 0.6vw);
+  }
+
+  h4,
+  .h4 {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+
+  .display-1 {
+    font-size: calc(1.725rem + 5.7vw);
+  }
+
+  .display-2 {
+    font-size: calc(1.675rem + 5.1vw);
+  }
+
+  .display-3 {
+    font-size: calc(1.575rem + 3.9vw);
+  }
+
+  .display-4 {
+    font-size: calc(1.475rem + 2.7vw);
+  }
+
+  .close {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+}
