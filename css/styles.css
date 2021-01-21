@@ -1,9 +1,9 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .text-blue {
-  color: #0065FC;
+  color: #0065fc;
 }
 
 /* Nav Bar */
@@ -12,10 +12,10 @@ body {
 }
 
 .navbar-brand {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 2.25rem;
+  font-size: 1.7rem;
   line-height: 2.625rem;
   margin-bottom: auto;
 }
@@ -27,9 +27,9 @@ body {
 }
 
 .nav-link {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 1.375rem;
+  font-size: 1rem;
   line-height: 2.0625rem;
   text-align: center;
 }
@@ -41,26 +41,24 @@ body {
 /* Main */
 .main {
   text-align: center;
-  padding: 4.6875rem 9rem 0 8.9375rem;
+  margin-top: 2.5rem;
 }
 
 .pre-text {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 h1 {
   font-style: normal;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 4.5rem;
 }
 
 .post-text {
-  color: #C4C4C4;
-  font-size: 1.375rem;
-  margin-top: 0.8125rem;
-  margin-bottom: 0;
+  color: #c4c4c4;
+  font-size: 1.2rem;
 }
 
 .main-img {
@@ -71,7 +69,7 @@ h1 {
 
 /* Features */
 .row {
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 .feat {
   padding: 0 10rem;
@@ -79,7 +77,7 @@ h1 {
 
 .feature {
   text-align: center;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
 .feature-middle {
@@ -91,17 +89,16 @@ h1 {
   margin-top: 1.9375rem;
   margin-bottom: 1.5625rem;
   font-weight: 600;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .description {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
 }
 
 .background {
-
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -113,22 +110,21 @@ h1 {
 
 .feat-icon {
   color: #ffffff;
-
 }
 
 .left {
   background-color: #180058;
 }
 .mid {
-  background-color: #00C298;
+  background-color: #00c298;
 }
 .right {
-  background-color: #4400FF;
+  background-color: #4400ff;
 }
 
 /* Plans */
 .plans {
-  background-color: #F7F9FC;
+  background-color: #f7f9fc;
   display: flex;
   justify-content: center;
   padding-top: 4.625rem;
@@ -141,8 +137,6 @@ h1 {
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
-
-
 }
 
 .plan-price {
@@ -157,16 +151,16 @@ h1 {
 
 .btn-subscribe {
   border-radius: 80px;
-  color: #0065FC;
-  border: 1px solid #0066FF;
-  background: #FFFFFF;
+  color: #0065fc;
+  border: 1px solid #0066ff;
+  background: #ffffff;
   width: 271px;
   height: 72.35px;
 }
 
 .btn-premium {
-  background-color: #0066FF;
-  color: #FFFFFF;
+  background-color: #0066ff;
+  color: #ffffff;
 }
 
 .plan-feature {
@@ -176,17 +170,17 @@ h1 {
 .plan-checkbox {
   width: 35.33px;
   height: 36px;
-  background-color: #E2F7F2;
+  background-color: #e2f7f2;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.plan-checkbox-red{
+.plan-checkbox-red {
   width: 35.33px;
   height: 36px;
-  background-color: #FFF3F5;
+  background-color: #fff3f5;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -194,30 +188,20 @@ h1 {
 }
 
 .plan-checkmark-green {
-  color: #00B078;
+  color: #00b078;
   display: flex;
 }
 
 .plan-checkmark-red {
-  color: #FF8297;
+  color: #ff8297;
 }
-
-
-
-
-
-
-
-
-
 
 /* Footer */
 footer {
-  margin-top: 10rem;
-  background-color: #0066FF;
+  /* margin-top: 10rem; */
+  background-color: #0066ff;
   text-align: center;
-  padding: 5rem;
-
+  padding: 1rem;
 }
 
 .fab {
@@ -228,28 +212,27 @@ footer {
 .foot-logo1 {
   margin-bottom: 0;
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.25rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7rem;
   font-weight: 200;
-  }
+}
 
 .foot-logo2 {
   font-weight: 600;
 }
 
-.Copyright{
+.Copyright {
   margin-bottom: 0;
   color: #ffffff;
-  margin-top: 2rem;
-  padding-bottom: 2rem;
-  font-size: 1.25rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
 }
 
 #contact {
   text-decoration: underline;
   color: #ffffff;
-  font-size: 1.25rem;
-
+  font-size: 1rem;
 }
 
 /* Responsive Font Size */
