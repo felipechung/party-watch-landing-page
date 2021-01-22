@@ -34,14 +34,28 @@ body {
   text-align: center;
 }
 
-.create-room {
-  margin: auto;
+.btn-create {
+  border-radius: 80px;
+  color: white;
+  border: 1px solid #0066ff;
+  background-color: #0066ff;
+  width: 170px;
+  height: 50px;
+  transition: all 0.4s ease;
 }
 
+.btn-create:hover {
+  background-color: #0065fc;
+}
+/* .create-room {
+  margin: auto;
+} */
+
 /* Main */
+
 .main {
   text-align: center;
-  margin-top: 2.5rem;
+  padding: 9rem;
 }
 
 .pre-text {
@@ -145,9 +159,11 @@ h1 {
   background-color: #ffffff;
   padding: 50px;
   margin: 30px;
+  box-shadow: 6px 6px 4px -6px black;
 }
 .plan-category {
   font-weight: 600;
+  font-size: 1rem;
 }
 
 .plan-price {
@@ -155,12 +171,18 @@ h1 {
   flex-direction: column;
   align-items: center;
   font-weight: 600;
+  font-size: 1.7rem;
 }
 
 .plan-features {
   display: flex;
   flex-direction: column;
   margin: 1rem;
+}
+
+.plan-feature span {
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .btn-subscribe {
@@ -170,6 +192,13 @@ h1 {
   background: #ffffff;
   width: 170px;
   height: 50px;
+
+  transition: all 0.4s ease;
+}
+
+.btn-subscribe:hover {
+  color: white;
+  background-color: #0065fc;
 }
 
 .btn-premium {
@@ -177,8 +206,15 @@ h1 {
   color: #ffffff;
 }
 
+.btn-premium:hover {
+  background-color: #ffffff;
+  color: #0066ff;
+}
+
 .plan-feature {
   display: flex;
+  align-items: center;
+  margin: 0.5rem;
 }
 
 .plan-checkbox {
@@ -189,6 +225,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 0.8rem;
 }
 
 .plan-checkbox-red {
@@ -199,6 +236,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 0.8rem;
 }
 
 .plan-checkmark-green {
@@ -208,6 +246,11 @@ h1 {
 
 .plan-checkmark-red {
   color: #ff8297;
+}
+.text-muted {
+  font-size: 0.9rem;
+  color: #c4c4c4;
+  font-weight: 400;
 }
 
 /* Footer */
@@ -244,7 +287,6 @@ footer {
 }
 
 #contact {
-  text-decoration: underline;
   color: #ffffff;
   font-size: 1rem;
 }
@@ -297,5 +339,9 @@ footer {
   .feature-middle {
     text-align: center;
     margin-top: 4rem;
+  }
+  .main {
+    padding: 0;
+    margin-top: 2.5rem;
   }
 }
