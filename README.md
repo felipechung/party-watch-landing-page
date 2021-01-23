@@ -1,7 +1,5 @@
 # Party Watch
 
-![Project Image](project-image-url)
-
 > Share precious moments with your family and friends.
 
 ---
