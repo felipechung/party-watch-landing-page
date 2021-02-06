@@ -252,8 +252,16 @@
         ><i class="fab fa-twitter fa-2x"></i
       ></a>
       <p class="foot-logo1">Party<span class="foot-logo2">Watch.</span></p>
-      <p class="Copyright">Copyright 2020 Felipe Chung | All Rights Reserved</p>
+      <p class="Copyright">
+        Copyright <span id="copyright-year">2020</span> Felipe Chung | All
+        Rights Reserved
+      </p>
       <a id="contact" href="">contact@partywatch.com</a>
     </footer>
+    <script>
+      document.getElementById(
+        "copyright-year"
+      ).innerText = new Date().getFullYear();
+    </script>
   </body>
 </html>
